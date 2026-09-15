@@ -261,3 +261,12 @@ hardware seja parecido mas não idêntico (história completa em
   UTFT não oferece essa leitura. O nome do controlador (`SSD1289`) é fixo em
   `config.h`, porque foi **confirmado em bancada**, não porque foi assumido
   às cegas.
+
+## Licença
+
+O código deste repositório (firmware e documentação) está sob licença
+[MIT](LICENSE). As bibliotecas de terceiros necessárias para compilar
+(`UTFT`, `URTouch`) **não** são MIT — são CC BY-NC-SA (uso não-comercial),
+mantidas por Henning Karlsen / Rinky-Dink Electronics, e precisam ser
+instaladas separadamente (ver [Bibliotecas necessárias](#bibliotecas-necessárias-instalação-manual)).
+Respeite a licença delas se for redistribuir ou usar comercialmente.
